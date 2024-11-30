@@ -8,6 +8,11 @@
     --primary-color: #4891ff;
     --light-color: #f4f4f6;
     --dark-color: #111;
+
+    --text-primary: #b6b6b6;
+    --text-secondary: #ececec;
+    --background-primary: #ff8a00;
+    --background-secondary: #141418;
 }
 
 body {
@@ -37,6 +42,15 @@ img {
 .navbar {
     background: #fff;
     padding: 20px;
+}
+
+.navbar-about{
+    width: 5rem;
+    height: 100vh;
+    top: 0;
+    position: fixed;
+    background-color: var(--background-primary);
+    z-index: 1000;
 }
 
 .navbar .container {
@@ -312,6 +326,7 @@ hero .hero-text {
 }
 
 .card-grid-about {
+    margin-left: 3rem;
     display: flex;
     padding: 3rem;
     overflow-x: hidden;

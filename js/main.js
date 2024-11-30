@@ -53,9 +53,4 @@ document.getElementById('card-seppo').addEventListener('click', () => {
     window.location.href = "mailto:seppo@example.com?subject=Hei Seppo&body=60 metriä lentää vaikka ilman vauhtia.";
 });
 
-//About Us header easter egg
-
-document.getElementById('testi').addEventListener('click', () => {
-    window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
-});
 
