@@ -1,3 +1,4 @@
+# CT70A9110-SDS-Front-end
 Juho-Joel Luukkonen
 
 You have a few different options for how to run this project, either by setting up a live server or hosting the page on GitHub Pages.
