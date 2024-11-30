@@ -42,3 +42,13 @@ document.addEventListener('DOMContentLoaded', () => {
     hamburgerButton.addEventListener('click', () => mobileMenu.classList.toggle('active')
     );
 })
+
+document.getElementById('card-matti').addEventListener('click', () => {
+    window.location.href = "mailto:matti@example.com?subject=Tere Matti&body=Juu eiku nääs...";
+});
+document.getElementById('card-kalevi').addEventListener('click', () => {
+    window.location.href = "mailto:kalevi@example.com?subject=Tere Kale! &body=Hei Kalevi, asia kunnossa!";
+});
+document.getElementById('card-seppo').addEventListener('click', () => {
+    window.location.href = "mailto:seppo@example.com?subject=Hei Seppo&body=60 metriä lentää vaikka ilman vauhtia.";
+});
