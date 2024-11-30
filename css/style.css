@@ -660,7 +660,7 @@ hero .hero-text {
 }
 
 /* Media Queries */
-@media (max-width: 1200px) {
+@media (max-width: 1220px) {
     .text-xl{
         font-size: 3rem;
         font-weight: 600;
@@ -670,6 +670,13 @@ hero .hero-text {
         text-align: center;
         margin-bottom: 1rem;
         font-size: 1.5rem;
+    }
+
+    .footer-grid-about {
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* Yksi sarake */
+        gap: 20px; /* Väli elementtien välissä */
+        text-align: center; /* Keskittää tekstin */
     }
 }
 
@@ -694,12 +701,6 @@ hero .hero-text {
         text-align: center;
         margin-bottom: 1rem;
         font-size: 1.5rem;
-    }
-    .footer-grid-about {
-        display: grid;
-        grid-template-columns: 1fr 1fr; /* Yksi sarake */
-        gap: 20px; /* Väli elementtien välissä */
-        text-align: center; /* Keskittää tekstin */
     }
 }
 
