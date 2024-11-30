@@ -1,9 +1,10 @@
 {
+  "homepage": "https://brje.github.io/SDS-Front-end---Project",
   "name": "coursework",
   "description": "SDS Front-end Project Work",
-  "homepage": "https://brje.github.io/SDS-Front-end---Project",
   "scripts": {
-    "deploy": "gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "gh-pages": "^6.2.0"
